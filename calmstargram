@@ -96,6 +96,8 @@ font-family: "Instrument Sans", sans-serif;
             border: 1px solid black;
             /*원과 원 사이의 간격조정 코드*/
             margin-top: 5px;
+            flex-direction: column;
+            
 
         }
 
@@ -178,13 +180,14 @@ font-family: "Instrument Sans", sans-serif;
             
             <p>회원님을 위한 추천</p>
             
-            <div id="sort" style ="margin-top: 10px; ">
+            <div id="sort" style ="margin-top: 10px;">
                 <div class="circle">
                     <a href="https://www.instagram.com/99_sj.m/"><img class="img-block" style="border-radius: 50%;"
                             src="https://www.urbanbrush.net/web/wp-content/uploads/edd/2022/11/urbanbrush-20221108214712319041.jpg"
                             alt="..."></a>
                 </div>
                 <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @99_sj.m </h2>
+                
             </div>
 
             <div id="sort">
