@@ -15,6 +15,11 @@
             font-family: "Cute Font", sans-serif;
         }
 
+
+
+
+
+
         .h1 {
             font-size: 30px;
             
@@ -57,7 +62,7 @@
             background-size: cover;
 
             margin-left: 0px;
-            margin-right: 100px;
+            margin-right: 200px;
         }
 
         #love {
@@ -112,8 +117,12 @@ font-family: "Instrument Sans", sans-serif;
         #sort {
             /* 정렬 id */
             display: flex;
-            flex-direction: row;
-            justify-content: center;
+            flex-direction: right;
+            justify-content: left;
+            text-align: left;
+            margin: 0px auto;
+
+            
             
             
         }
@@ -127,6 +136,10 @@ font-family: "Instrument Sans", sans-serif;
         }
         h3{
             margin-left: 150px;
+        }
+
+        .nope {
+            margin: 250px;
         }
 
        
@@ -161,15 +174,15 @@ font-family: "Instrument Sans", sans-serif;
         <div id="sort" style ="margin-top: 0px; ">
 
         <div class="boxitem">
-            <h3 class="pro" style ="font-size: 30px;">우리들은 차분하조</h3>
+            <h3 class="pro" style ="font-size: 30px;;">우리들은 차분하조</h3>
             <img height="500">
             <div style ="font-size: 25px; text-align: center;">
                 
             </div>
         </div>
 
-        <div>
-            <div id="sort" style ="margin-top: 0px; ">
+        <div id="nope">
+            <div id="sort" style ="margin-top: 10px; ">
                 <div class="circle">
                     <a href="https://www.instagram.com/spartacodingclub/"><img class="img-block" style="border-radius: 50%;"
                             src="https://www.urbanbrush.net/web/wp-content/uploads/edd/2022/11/urbanbrush-20221108214712319041.jpg"
@@ -180,7 +193,7 @@ font-family: "Instrument Sans", sans-serif;
             
             <p>회원님을 위한 추천</p>
             
-            <div id="sort" style ="margin-top: 10px;">
+            <div id="sort" style ="margin-top: 10px;" >
                 <div class="circle">
                     <a href="https://www.instagram.com/99_sj.m/"><img class="img-block" style="border-radius: 50%;"
                             src="https://www.urbanbrush.net/web/wp-content/uploads/edd/2022/11/urbanbrush-20221108214712319041.jpg"
@@ -192,7 +205,7 @@ font-family: "Instrument Sans", sans-serif;
 
             <div id="sort">
                 <div class="circle">
-                    <a href=https://www.instagram.com/arumi729/><img class="img-block" style="border-radius: 50%;"
+                    <a href=https://www.instagram.com/arumi729><img class="img-block" style="border-radius: 50%;"
                             src="https://search.pstatic.net/sunny/?src=http%3A%2F%2Fartmug.kr%2Fimage%2Fup_img%2Fdetail%2Fgoods_6476%2F16786031530.gif&type=sc960_832_gif"
                             alt="..."></a>
                 </div>
@@ -231,8 +244,14 @@ font-family: "Instrument Sans", sans-serif;
                     <a href="https://www.instagram.com/buck_k_s/"><img class="img-block" style="border-radius: 50%;"
                             src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA5MDJfMjU3%2FMDAxNjMwNTY0ODcwNTE3.VjgOeC-KG7iCDeITLNp7FR7lhMg4k7njqYmW_a5LEPAg.9KQ1kWRFlKVogdGM9lkb4BlDze0r-lNQZKvrPFw3yd8g.PNG.ricemuseum1%2F123.png&type=sc960_832"
                             alt="..."></a>
-                </div>
+                        </div>
                 <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @buck_k_s </h2>
+                
+           <div>
+
+
+
+
             </div>
         </div>
 
