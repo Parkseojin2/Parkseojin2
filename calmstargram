@@ -183,7 +183,7 @@
             color: silver;
         }
 
-        #two{
+        .two{
             background-color: transparent;
             border: solid transparent;
             font-family: "Instrument Sans", sans-serif;
@@ -200,7 +200,7 @@
 
         }
 
-        #two:hover{
+        .two:hover{
             color: rgb(1, 20, 126);
         }
     </style>
@@ -212,8 +212,9 @@
         }
 
         $(document).ready(function() {
-    $('#two').click(function() {
+    $('.two').click(function() {
         $(this).html('팔로잉');
+        
     })
 });
 
@@ -290,7 +291,7 @@
                 
                 
                     <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @99_sj.m </h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-                    <button id="two" >팔로우</button>
+                    <button class="two" >팔로우</button>
 
                 </div>
 
@@ -307,7 +308,7 @@
                         </a>
                     </div>
                     <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @arumi729 </h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <button id="two">팔로우</button>
+                    <button class="two">팔로우</button>
                 </div>
 
                 <div id="sort">
@@ -323,7 +324,7 @@
                         </a>
                     </div>
                     <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @wjdrbs2024</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                    <button  id="two">팔로우</button>
+                    <button class ="two">팔로우</button>
                 </div>
 
                 <div id="sort">
@@ -339,7 +340,7 @@
                         </a>
                     </div>
                     <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @sh_unning </h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                    <button  id="two">팔로우</button>
+                    <button  class ="two">팔로우</button>
                 </div>
 
                 <div id="sort">
@@ -354,7 +355,7 @@
                         </a>
                     </div>
                     <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @ah_ma.do </h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                    <button  id="two">팔로우</button>
+                    <button  class ="two">팔로우</button>
                 </div>
 
                 <div id="sort">
@@ -370,7 +371,7 @@
                         </a>
                     </div>
                     <h2 style="font-size: 15px; margin-bottom: 5px; margin-left: 15px;"> @buck_k_s </h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                    <button  id="two">팔로우</button>
+                    <button  class ="two">팔로우</button>
                 
                 </div>
                     <div>
